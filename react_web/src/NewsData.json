@@ -1,0 +1,62 @@
+{
+  "sports": [
+    {
+      "title": "India clinches victory in T20 World Cup",
+      "description": "India beats Australia by 7 wickets in a thrilling T20 final.",
+      "urlToImage": "https://via.placeholder.com/300x200.png?text=Sports+1",
+      "url": "https://example.com/news/sports1"
+    },
+    {
+      "title": "Messi scores a hat-trick against Brazil",
+      "description": "Lionel Messi leads Argentina to a spectacular win.",
+      "urlToImage": "https://via.placeholder.com/300x200.png?text=Sports+2",
+      "url": "https://example.com/news/sports2"
+    }
+   
+  ],
+  "health": [
+    {
+      "title": "New breakthrough in cancer treatment",
+      "description": "Doctors successfully test a new gene therapy method.",
+      "urlToImage": "https://via.placeholder.com/300x200.png?text=Health+1",
+      "url": "https://example.com/news/health1"
+    },
+    {
+      "title": "Study shows benefits of daily walking",
+      "description": "30 minutes of walking daily may reduce heart disease risk.",
+      "urlToImage": "https://via.placeholder.com/300x200.png?text=Health+2",
+      "url": "https://example.com/news/health2"
+    }
+   
+  ],
+  "entertainment": [
+    {
+      "title": "Avengers returns with a new sequel",
+      "description": "Marvel Studios announces new Avengers movie in 2026.",
+      "urlToImage": "https://via.placeholder.com/300x200.png?text=Entertainment+1",
+      "url": "https://example.com/news/entertainment1"
+    },
+    {
+      "title": "Oscar Awards 2025: Complete Winners List",
+      "description": "Oppenheimer wins Best Picture and Best Director.",
+      "urlToImage": "https://via.placeholder.com/300x200.png?text=Entertainment+2",
+      "url": "https://example.com/news/entertainment2"
+    }
+  
+  ],
+  "fitness": [
+    {
+      "title": "Top 5 home workouts for busy professionals",
+      "description": "No gym needed — just 15 minutes daily to stay fit.",
+      "urlToImage": "https://via.placeholder.com/300x200.png?text=Fitness+1",
+      "url": "https://example.com/news/fitness1"
+    },
+    {
+      "title": "Yoga for stress relief and better sleep",
+      "description": "Try these 5 yoga poses to calm your mind at night.",
+      "urlToImage": "https://via.placeholder.com/300x200.png?text=Fitness+2",
+      "url": "https://example.com/news/fitness2"
+    }
+  
+  ]
+}
