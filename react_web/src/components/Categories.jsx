@@ -58,9 +58,9 @@ function CategoryNews({ categoryName, headingText }) {
         </div>
 
         <div className='pagination-div'>
-          <button onClick={goToPreviousPage} disabled={currentPage === 1}>Previous</button>
+          <button onClick={goToPreviousPage} >Previous</button>
           <span>Page {currentPage} of {totalPages}</span>
-          <button onClick={goToNextPage} disabled={currentPage === totalPages}>Next</button>
+          <button onClick={goToNextPage} >Next</button>
         </div>
       </div>
     </div>
@@ -68,3 +68,8 @@ function CategoryNews({ categoryName, headingText }) {
 }
 
 export default CategoryNews;
+  
+
+
+
+

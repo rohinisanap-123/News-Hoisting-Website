@@ -10,16 +10,22 @@ export default function AdminPanel() {
   const [image, setImage] = useState("");
   const [editId, setEditId] = useState(null);
 
-  // Load news from localStorage when page loads
-  useEffect(() => {
-    const savedNews = JSON.parse(localStorage.getItem("news")) || [];
-    setNewsList(savedNews);
-  }, []);
+  
 
-  // Save to localStorage whenever newsList changes
-  useEffect(() => {
+  // Load only once when page loads
+useEffect(() => {
+  const savedNews = localStorage.getItem("news");
+  if (savedNews) {
+    setNewsList(JSON.parse(savedNews));
+  }
+}, []);
+
+// Save only if there is some news
+useEffect(() => {
+  if (newsList && newsList.length > 0) {
     localStorage.setItem("news", JSON.stringify(newsList));
-  }, [newsList]);
+  }
+}, [newsList]);
 
   // Add / Update news
   const handleSubmit = (e) => {
